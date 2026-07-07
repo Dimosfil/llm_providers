@@ -5,45 +5,46 @@ Every command should be copy-pasteable from the project root.
 ## Install
 
 ```powershell
-# TODO
+npm install
 ```
 
 ## Run
 
 ```powershell
-# TODO
+node test/smoke.mjs
 ```
 
 ## Test
 
 ```powershell
-# TODO
+npm test
 ```
 
 ## Build
 
 ```powershell
-# TODO
+# No build step currently required.
 ```
 
 ## Smoke Check
 
 ```powershell
-# TODO
+npm run smoke
 ```
 
 Expected result:
 
 ```text
-TODO
+smoke ok
 ```
 
 ## Logs
 
 ```powershell
-# TODO
+# No project-owned runtime logs yet.
 ```
 
 ## Environment Notes
 
-- TODO
+- Runtime secrets must come from environment or caller-owned config.
+- Do not commit provider API keys, generated model output, or local runtime logs.

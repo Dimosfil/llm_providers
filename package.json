@@ -1,0 +1,24 @@
+{
+  "name": "llm-providers",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Reusable provider adapters for LLM and local agent runtimes.",
+  "exports": {
+    ".": "./src/index.mjs",
+    "./config": "./src/config.mjs",
+    "./contracts": "./src/contracts.mjs",
+    "./providers/codex-app-server": "./src/providers/codex-app-server/index.mjs",
+    "./providers/deepseek": "./src/providers/deepseek/index.mjs",
+    "./providers/mock": "./src/providers/mock/index.mjs",
+    "./providers/openai-compatible": "./src/providers/openai-compatible/index.mjs",
+    "./output-contracts": "./src/outputContracts.mjs"
+  },
+  "scripts": {
+    "test": "node --test",
+    "smoke": "node test/smoke.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
