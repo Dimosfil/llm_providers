@@ -6,3 +6,4 @@ export { createCodexAppServerProvider, buildCodexRuntimeOptions, resolveCodexCom
 export { createDeepSeekProvider } from "./providers/deepseek/index.mjs";
 export { createMockProvider } from "./providers/mock/index.mjs";
 export { buildChatCompletionsBody, createOpenAiCompatibleProvider } from "./providers/openai-compatible/index.mjs";
+export { createKieClient, KieError } from "./providers/kie/index.mjs";

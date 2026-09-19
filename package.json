@@ -5,6 +5,7 @@
   "type": "module",
   "description": "Reusable provider adapters for LLM and local agent runtimes.",
   "exports": {
+    "./providers/kie": "./src/providers/kie/index.mjs",
     ".": "./src/index.mjs",
     "./config": "./src/config.mjs",
     "./contracts": "./src/contracts.mjs",
